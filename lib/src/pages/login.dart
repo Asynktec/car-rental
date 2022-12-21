@@ -22,8 +22,7 @@ class _LoginPageState extends State<LoginPage> {
   bool _buttonNull = true;
 
   @override
-  Widget build(BuildContext context) {
-    ThemeData themeData = Theme.of(context);
+  Widget build(BuildContext context) { 
 
     return Scaffold(
       backgroundColor: const Color(0xfff8f8f8),
